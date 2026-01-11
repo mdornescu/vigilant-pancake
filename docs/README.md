@@ -35,8 +35,16 @@ Our cross-functional teams include clearly defined [**roles**](octoacme-roles-an
 - **Project Managers (PM)**: Coordinate delivery, manage schedules and risks, and maintain project documentation
 - **Product Managers (PdM)**: Define what to build, prioritize the backlog, and measure outcomes
 - **Developers**: Implement features, write tests, and participate in code reviews
-- **QA/Testing**: Validate quality and acceptance criteria
+- **QA Engineers**: Design test strategies, validate quality, and ensure acceptance criteria are met
+- **UX Designers**: Create user-centered designs through research, prototyping, and usability testing
+- **DevOps Engineers**: Build and maintain infrastructure, CI/CD pipelines, and deployment automation
+- **Business Analysts**: Gather requirements, analyze processes, and bridge business and technical teams
+- **Customer Support Lead**: Manage support team, gather customer feedback, and ensure support readiness for releases
 - **Stakeholders**: Provide inputs and approvals
+
+For detailed role descriptions and how these personas interact, see [Roles & Personas](octoacme-roles-and-personas.md).
+
+To ensure smooth cross-functional collaboration, we provide [reusable checklists](octoacme-cross-functional-checklist.md) for handoffs and release readiness.
 
 Communication follows predictable cadences to keep everyone aligned:
 
@@ -68,5 +76,6 @@ For more details on any aspect of our process, explore the complete documentatio
 - [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) — Learning and iteration
 - [Roles & Personas](octoacme-roles-and-personas.md) — Detailed role descriptions
 - [Risk Management & Communication](octoacme-risks-and-communication.md) — Stakeholder engagement strategies
+- [Cross-Functional Checklists](octoacme-cross-functional-checklist.md) — Handoff and release readiness templates
 
 We believe in psychological safety, data-informed decisions, and continuous improvement. After each sprint, release, or milestone, we run retrospectives to capture what went well, what could be improved, and 2-3 top action items with clear owners and timelines. These improvements are tracked in our backlog and reviewed in weekly PM syncs, creating a culture of measurable, iterative enhancement.

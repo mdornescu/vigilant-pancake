@@ -12,7 +12,21 @@ OctoAcme follows a structured project lifecycle that emphasizes customer-first t
 - [**Release**](octoacme-release-and-deployment.md): Deploy with proper smoke tests and rollback plans
 - [**Retrospective**](octoacme-retrospective-and-continuous-improvement.md): Capture learnings and actionable improvements
 
-Our execution model uses GitHub Projects with standard workflow columns (Backlog → Ready → In Progress → In Review → QA → Done) and emphasizes small pull requests, automated testing, and at least one approval before merging. Quality assurance is embedded throughout with unit tests, integration tests, end-to-end smoke tests for critical flows, security scanning in CI, and manual QA for feature acceptance. We measure success through velocity, burndown charts, and the success metrics defined in each project's one-pager.
+Our execution model uses GitHub Projects with standard workflow columns (Backlog → Ready → In Progress → In Review → QA → Done) and emphasizes:
+
+- Small pull requests (<= 400 lines when possible)
+- Automated testing and linting in CI
+- At least one approval before merging
+
+Quality assurance is embedded throughout the development process:
+
+- Unit tests for new logic
+- Integration tests where applicable
+- End-to-end smoke tests for critical flows
+- Security scanning in CI
+- Manual QA for feature acceptance
+
+We measure success through velocity, burndown charts, and the success metrics defined in each project's one-pager.
 
 ## Roles, Personas, and Team Rhythms
 
@@ -24,7 +38,15 @@ Our cross-functional teams include clearly defined [**roles**](octoacme-roles-an
 - **QA/Testing**: Validate quality and acceptance criteria
 - **Stakeholders**: Provide inputs and approvals
 
-Communication follows predictable cadences to keep everyone aligned: daily standups (15 minutes, focusing on progress and blockers), twice-weekly delivery team syncs, weekly PM + PdM alignment meetings, monthly stakeholder updates, and demo/review sessions at the end of each sprint or milestone. Each project maintains a single source of truth in its project README or release doc, and weekly status updates follow a standard template covering progress, next steps, risks/blockers, and decisions needed.
+Communication follows predictable cadences to keep everyone aligned:
+
+- **Daily standups**: 15 minutes, focusing on progress and blockers
+- **Twice-weekly delivery team syncs**: Show progress, updates, and flagged risks
+- **Weekly PM + PdM alignment**: Coordinate on priorities and roadmap
+- **Monthly stakeholder updates**: Keep leadership informed of progress
+- **Demo/review sessions**: End of each sprint or milestone
+
+Each project maintains a single source of truth in its project README or release doc. Weekly status updates follow a standard template covering progress, next steps, risks/blockers, and decisions needed.
 
 ## Communication and Stakeholder Engagement
 
